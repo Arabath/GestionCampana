@@ -1,0 +1,33 @@
+.errorAlert {
+    padding: 0%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 174, 0);
+    opacity: 60%;
+    height: 50px;
+    text-align: start;
+    color: #ffff;
+}
+
+.registerErrorOverlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.refresh-btn {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.refresh-btn:hover {
+    background-color: #9816f4;
+    color: #ffff;
+}

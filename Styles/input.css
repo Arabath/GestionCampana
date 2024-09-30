@@ -1,0 +1,18 @@
+.input-wrapper{
+    display: flex;
+}
+
+.toggle-btn{
+    border: none;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+@media (max-width: 450px) {
+    .input-wrapper{
+        display: flex;
+        width: auto;
+        padding: 6px;
+    }
+}

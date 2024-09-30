@@ -1,0 +1,14 @@
+.btn-detalle {
+    background-color: #929ce9;
+    width: 90px;
+    border:none;
+    border-radius: 5px;
+    color: #ffff;
+    transition-duration: 0.4s;
+}
+
+.btn-detalle:hover {
+    background-color: #9816f4; 
+    color: white;
+}
+

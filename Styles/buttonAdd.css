@@ -1,0 +1,24 @@
+.create-request {
+  background-color: #4c1c64;
+  box-shadow: 5px 5px 100px #61277d;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 50px;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  font-weight: bold;
+  color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  transform: rotate(0);
+  transition: .3s ease;
+  z-index: 1;
+}
+.create-request:hover {
+  transform: rotate(224deg);
+}

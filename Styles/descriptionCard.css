@@ -1,0 +1,27 @@
+.wrapper {
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.desc-container{
+    background-color: rgba(255, 255, 255, 0.546);
+    color:rgb(128, 120, 120);
+    height: 45px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;   
+}
+
+.texto-desc{
+    padding: 13px;
+    font-size: small;
+    text-align:center;
+    font-weight: bold;
+}
+
+.titulo-detalle {
+    text-align: center;
+    font-size: medium;
+    color: rgb(124, 116, 116);
+}

@@ -1,0 +1,78 @@
+.button-to-data {
+  color: #82368c;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.data-dog-container {
+  justify-content: center;
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+.data-dog {
+  width: 100%;
+  background-color: rgb(250, 250, 250);
+  border-radius: 20px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(182, 182, 182, 0.2) 0px 2px 8px 0px;
+}
+.notification {
+  right: 150px;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  background-color: rgb(93, 53, 178);
+  box-shadow: rgba(93, 53, 178.25) 0px 0px 0px,
+    rgba(93, 53, 178.12) 0px -1px 30px, rgba(93, 53, 178.12) 0px 1px 5px,
+    rgba(93, 53, 178.17) 0px 1px 10px, rgba(93, 53, 178.09) 0px -1px 5px;
+  animation: size 1s ease infinite;
+}
+.notification-white {
+  right: 150px;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin-left: 10px;
+  background-color: #fff;
+  box-shadow: rgb(175, 175, 175) 0px 0px 0px,
+    rgb(173, 173, 173) 0px -1px 30px, rgb(167, 167, 167) 0px 1px 5px,
+    rgb(139, 139, 139) 0px 1px 10px, rgb(218, 218, 218) 0px -1px 5px;
+  animation: size 1s ease infinite;
+}
+@keyframes size {
+  0% {
+    transform-origin: 50% 50%;
+    transform: scale(1.5, 1.5);
+    width: 3px;
+    height: 3px;
+  }
+  50% {
+    transform-origin: 50% 50%;
+    transform: scale(1.5, 1.5);
+    width: 5px;
+    height: 5px;
+  }
+  100% {
+    transform-origin: 50% 50%;
+    transform: scale(1.5, 1.5);
+    width: 3px;
+    height: 3px;
+  }
+}
+.ag-header-cell-text {
+  color: rgb(12, 12, 12);
+}
+.ag-center-cols-clipper {
+  min-height: 250px !important;
+}
+.separate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Esto alineará verticalmente los botones, si el contenido del div tiene más altura */
+}

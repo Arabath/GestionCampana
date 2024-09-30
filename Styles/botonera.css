@@ -1,0 +1,32 @@
+.botonera{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn-table{
+    background-color: #929ce9;
+    width: 1000px;
+    height: 35px;
+    border-radius: 5px;
+    border: solid 1px #f4f5f8;
+    color: #ffff;
+    transition-duration: 0.4s;
+}
+
+.btn-table:hover {
+    background-color: #9816f4; 
+    color: white;
+}
+
+.total-output {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-style: normal;
+       
+}
+
+.total-sum {
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.body-parts {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: brightness(0) saturate(100%) invert(82%) sepia(0%) saturate(2520%)
+    hue-rotate(45deg) brightness(91%) contrast(104%);
+  transition: 0.4s ease;
+}
+.body-parts-active {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: brightness(0) saturate(100%) invert(20%) sepia(76%) saturate(2083%)
+    hue-rotate(241deg) brightness(85%) contrast(106%);
+  filter: drop-shadow(0 0 0.75rem #4428a2);
+  transition: 0.4s ease;
+}
+.body-parts-with-data {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: brightness(0) saturate(100%) invert(46%) sepia(78%) saturate(3139%) hue-rotate(189deg) brightness(94%) contrast(91%) drop-shadow(0 0 0.75rem #1c87e5);
+  transition: 0.4s ease;
+}
+.body-parts-with-data:hover {
+  opacity: 0.5;
+  filter: brightness(0) saturate(100%) invert(21%) sepia(99%) saturate(4637%) hue-rotate(324deg) brightness(94%) contrast(91%) drop-shadow(0 0 0.75rem #e51c70);
+}
+.body-parts:hover {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(76%) saturate(2083%)
+    hue-rotate(241deg) brightness(85%) contrast(106%);
+  opacity: 0.5;
+  filter: drop-shadow(0 0 0.75rem #4428a2);
+}
+.dog-textfield {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 352px;
+}

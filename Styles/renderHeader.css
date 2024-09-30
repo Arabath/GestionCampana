@@ -1,0 +1,10 @@
+.tabla-deuda {
+    color: rgb(124, 116, 116);
+    text-align: center;
+    font-weight: 100;
+}
+
+.tabla-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.603);
+}

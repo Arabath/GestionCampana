@@ -1,0 +1,86 @@
+
+  .main-container {
+    background-color: rgba(0, 0, 0, 0.496);
+  }
+
+
+  .main-title{
+    font-size: 20px;
+  }
+
+  .main-title-price{
+    background-color: rgba(255, 0, 0, 0.296);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .modal-icons {
+    font-size: 35px;
+    color: #787979;
+  }
+
+  .modal-text{
+    color: #787979;
+    font-size: 15px;
+  }
+
+  #cards-convenios {
+    background-color:#f8f9fb;
+    text-align: center;
+    border: none;
+  }
+  
+
+  #button-convenio {
+    border: none;
+    height: 280px;
+    width: 170px;
+  }
+
+  @media (max-width: 550px) {
+
+    #modal-convenio-container{
+      height: 400px;
+    }
+    
+    .main-title {
+      font-size: 13px;
+    }
+
+    #cards-convenios {
+      height: 220px;
+    }
+
+    .modal-icons {
+      font-size: 45px;
+      color: #787979;
+    }
+
+    .modal-title{
+      font-size: 15px;
+    }
+
+    .main-title-price {
+      font-size: 14px;
+      text-align: center;
+    }
+
+    #button-convenio {
+      height: 140px;
+      width: 120px;
+    }
+
+    .modal-text {
+      visibility: hidden;
+    }
+
+    #close-btn{
+      margin-left: 8px;
+      
+    }
+
+    .btn-close {
+      font-size: 15px;
+    }
+
+  }
